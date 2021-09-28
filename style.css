@@ -1,0 +1,58 @@
+/*Gudani Tshivhase*/
+*{
+    box-sizing:;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+#left-column {
+    background-color: gray;
+    flex: 1 65%;
+    flex-flow: row wrap;
+}
+h1 {
+  text-align: center;
+}
+
+/*eyes & mouth resizing*/
+div > #body  {
+    width: 70px;
+} 
+/*glasses resizing*/
+div > #body1  {
+    width: 40px;
+} 
+/*hats & shoes resizing*/
+div > #body2  {
+    width: 70px;
+} 
+/*pants resizing*/
+div > #body3  {
+    width: 100px;
+    height: 100px;
+} 
+div > #body4{
+	width: 100px;
+	Height: 100px
+}
+
+#right-column{
+    flex: 1 35%;
+}
+ div > #human{
+     margin-top: 160px;
+     margin-left: 210px;
+    width: 260px;
+}
+
+ div > #logo {
+     position: fixed;
+     right: 0;
+     bottom: 0;
+     width: 180px;
+ }
